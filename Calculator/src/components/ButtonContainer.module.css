@@ -1,23 +1,24 @@
 
 .buttonContainer {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 buttons per row */
-  gap: 15px;                             /* reasonable spacing */
-  width: 100%;
-  justify-items: center;                /* center buttons in their grid cell */
+  display: flex;                          
+  flex-wrap: wrap;                 
+  justify-content: center;                
   margin-top: 20px;
+  margin-left: 20px;
+  
 }
 
   .button {
-margin:2.2px;
-  font-size: 2rem;         
-  padding: 2.2rem;
-  justify-content: space-evenly;
-  border: none;
-  border-radius: 20px;
-  background-color: #e5a6d6;
-  cursor: pointer;
-  transition: background-color 0.2s ease;
+  
+    width: 90px; 
+    height:85px ;                
+
+    margin:5px;
+    font-size: 2rem;
+    border-radius: 20px;
+    background-color: #f0b1f5;
+    font-family: 'Times New Roman', Times, serif;
+    
 }
 
 

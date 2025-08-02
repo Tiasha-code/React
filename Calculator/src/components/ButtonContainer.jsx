@@ -5,7 +5,7 @@ const ButtonContainer=() => {
   return (
   <div className={styles.buttonsContainer}>
     {buttonNames.map(buttonName =>  (<button className={styles.button}>{buttonName}</button>))}
-      </div>
+    </div>
   );
 };
 export default ButtonContainer;

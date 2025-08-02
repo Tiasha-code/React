@@ -1,0 +1,27 @@
+
+.buttonContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 buttons per row */
+  gap: 15px;                             /* reasonable spacing */
+  width: 100%;
+  justify-items: center;                /* center buttons in their grid cell */
+  margin-top: 20px;
+}
+
+  .button {
+margin:2.2px;
+  font-size: 2rem;         
+  padding: 2.2rem;
+  justify-content: space-evenly;
+  border: none;
+  border-radius: 20px;
+  background-color: #e5a6d6;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+
+
+.button:hover {
+  background-color: #fac5f5;
+}
